@@ -13,5 +13,3 @@ function! ShowWeather(city) abort
     echoerr 'error! curl not available.'
   endif
 endfunction
-
-command! -nargs=1 ShowWeather call ShowWeather(<q-args>)
